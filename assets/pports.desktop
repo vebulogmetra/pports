@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=PPORTS
+Name[ru]=PPORTS
+GenericName=Port Management Tool
+GenericName[ru]=Инструмент управления портами
+Comment=Manage network ports and processes with graphical interface
+Comment[ru]=Управление сетевыми портами и процессами с графическим интерфейсом
+Exec=pports-gui
+Icon=pports
+Terminal=false
+Type=Application
+Categories=System;Network;Monitor;
+Keywords=ports;network;processes;system;administration;
+Keywords[ru]=порты;сеть;процессы;система;администрирование;
+StartupNotify=true
+MimeType=
+Actions=cli;
+
+[Desktop Action cli]
+Name=CLI Mode
+Name[ru]=CLI режим
+Exec=pports-cli
+Icon=pports 
